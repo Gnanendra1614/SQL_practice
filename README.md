@@ -1,11 +1,11 @@
-SQL Practice
-
+**SQL Practice**
+ 
 This repository contains my SQL practice and learning exercises.
 The queries are organized topic-wise, starting from SQL basics and progressing to advanced SQL concepts.
 
-Topics Covered
+**Topics Covered**
 
-1. SQL Basics
+**1. SQL Basics**
 Create Database
 Create Table
 Insert Values
@@ -19,7 +19,7 @@ DROP
 AND
 OR
 
-2. SQL Constraints
+**2. SQL Constraints**
 
 NOT NULL
 UNIQUE
@@ -28,11 +28,12 @@ CHECK
 FOREIGN KEY
 PRIMARY KEY
 
-3. Logical Query Processing Pipeline
+**3. Logical Query Processing Pipeline**
 
 Understanding the logical order in which SQL queries are processed.
 
-4. Joins
+**4. Joins**
+
 INNER JOIN
 LEFT JOIN
 RIGHT JOIN
@@ -40,7 +41,7 @@ FULL OUTER JOIN
 SEMI JOIN
 ANTI JOIN
 
-5. Aggregate Functions
+**5. Aggregate Functions**
 
 MIN()
 MAX()
@@ -48,23 +49,23 @@ SUM()
 AVG()
 COUNT()
 
-6. GROUP BY and HAVING
+**6. GROUP BY and HAVING**
 
 GROUP BY
 HAVING
 Aggregate functions with GROUP BY and HAVING
 
-7. Stored Procedures
+**7. Stored Procedures**
 
 Basic Stored Procedures
 Stored Procedures with Multiple Parameters
 
-8. Views
+**8. Views**
 
 Creating Views
 Working with Views
 
-9. Subqueries
+**9. Subqueries**
 
 Simple Subqueries
 Subqueries with MAX()
@@ -72,7 +73,7 @@ Subqueries with MIN()
 Subqueries with IN
 Correlated Subqueries
 
-10. CTEs — Common Table Expressions
+**10. CTEs — Common Table Expressions**
 
 Basic CTEs
 CTEs with WHERE
@@ -81,7 +82,7 @@ CTEs with Aggregation
 CTEs with Joins
 CTEs with Subqueries
 
-11. Window Functions
+**11. Window Functions**
 
 ROW_NUMBER()
 ROW_NUMBER() with PARTITION BY
@@ -89,7 +90,7 @@ RANK()
 LAG()
 LEAD()
 
-Project Structure
+**Project Structure**
 
 SQL_practice/
 │
