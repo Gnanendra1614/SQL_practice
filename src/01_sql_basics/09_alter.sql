@@ -1,0 +1,4 @@
+ALTER TABLE Employees 
+ADD Email VARCHAR(200); 
+ALTER TABLE Employees
+ALTER COLUMN EmployeeName VARCHAR(200);
