@@ -91,6 +91,9 @@ LEAD()
 
 Project Structure
 
+## 📁 Project Structure
+
+```text
 SQL_practice/
 │
 ├── README.md
@@ -98,13 +101,23 @@ SQL_practice/
 └── src/
     │
     ├── 01_sql_basics/
+    │
     ├── 02_sql_constraints/
+    │
     ├── 03_logical_query_processing_pipelines/
+    │
     ├── 04_joins/
+    │
     ├── 05_aggregation/
+    │
     ├── 06_using_aggregation_with_groupby_having/
+    │
     ├── 07_stored_procedure/
+    │
     ├── 08_views/
+    │
     ├── 09_sub_queries/
+    │
     ├── 10_ctes-common_table_expression/
+    │
     └── 11_window_functions/
