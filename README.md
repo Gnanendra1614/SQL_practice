@@ -94,7 +94,7 @@ LEAD()
 
 **Project Structure**
 
-## 📁 Project Structure
+
 
 ```text
 SQL_practice/
@@ -130,4 +130,4 @@ SQL_practice/
 
 
 
->>>>>>> 209ae5cf05e9f6e9822c85178b66080d5c1a9c71
+
