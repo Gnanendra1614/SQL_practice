@@ -17,28 +17,11 @@ VALUES
 (107, 'Gnanendra', 29, 'Finance', 70000),
 (108, 'Suresh', 23, 'IT', 52000);
 
-SELECT *
-FROM Employee;
-
-SELECT *
+SELECT 
+    Department,
+    AVG(Salary) AS AverageSalary
 FROM Employee
-WHERE Salary > 50000;
-
-SELECT Department, COUNT(*) AS EmployeeCount
-FROM Employee
-GROUP BY Department;
-
-SELECT Department, COUNT(*) AS EmployeeCount
-FROM Employee
+WHERE Salary > 45000
 GROUP BY Department
-HAVING COUNT(*) > 2;
-
-SELECT EmployeeName, Salary
-FROM Employee;
-
-SELECT DISTINCT Department
-FROM Employee;
-
-SELECT EmployeeName, Salary
-FROM Employee
-ORDER BY Salary DESC;
+HAVING AVG(Salary) > 50000
+ORDER BY AverageSalary DESC;
